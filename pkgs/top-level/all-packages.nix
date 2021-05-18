@@ -25403,6 +25403,8 @@ in
 
   owamp = callPackage ../applications/networking/owamp { };
 
+  owntracks-recorder = callPackage ../applications/gis/owntracks-recorder { };
+  
   vieb = callPackage ../applications/networking/browsers/vieb {
     electron = electron_12;
   };
@@ -27517,6 +27519,7 @@ in
   };
 
   zombietrackergps = libsForQt5.callPackage ../applications/gis/zombietrackergps { };
+  
 
   zoom-us = callPackage ../applications/networking/instant-messengers/zoom-us { };
 
